@@ -1,0 +1,39 @@
+@import url("normalize.css");
+@import url("./icon/iconfont.css");
+
+:root {
+    --color-text: #666;
+    --color-high-text: #42bbaa;
+    --color-tint: #42b983;
+    --color-background: #f6f6f6;
+    --color-panel: #ffffff;
+    --font-size: 14px;
+    --line-height: 1.5;
+}
+
+*,
+*::before,*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    user-select: none; /* 禁用用户选中文件或图片 */
+    background: var(--color-background);
+    color: var(--color-text);
+    width: 100vw;
+}
+
+a {
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
